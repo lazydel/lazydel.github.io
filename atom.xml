@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lazydel.github.io/"/>
-  <updated>2018-08-22T05:01:10.526Z</updated>
+  <updated>2018-08-27T16:11:11.319Z</updated>
   <id>https://lazydel.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lazydel.github.io/2018/08/21/%E7%BD%91%E9%BC%8E%E6%9D%AFGUESS/"/>
     <id>https://lazydel.github.io/2018/08/21/网鼎杯GUESS/</id>
     <published>2018-08-20T23:26:53.000Z</published>
-    <updated>2018-08-22T05:01:10.526Z</updated>
+    <updated>2018-08-27T16:11:11.319Z</updated>
     
     <summary type="html">
     
@@ -35,8 +35,12 @@
     
     </summary>
     
+      <category term="Pwn" scheme="https://lazydel.github.io/categories/Pwn/"/>
+    
     
       <category term="ctf" scheme="https://lazydel.github.io/tags/ctf/"/>
+    
+      <category term="pwn" scheme="https://lazydel.github.io/tags/pwn/"/>
     
   </entry>
   
@@ -45,7 +49,7 @@
     <link href="https://lazydel.github.io/2018/05/21/%E6%89%8B%E6%9C%BAssh%E8%BF%9E%E6%8E%A5ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     <id>https://lazydel.github.io/2018/05/21/手机ssh连接ubuntu虚拟机/</id>
     <published>2018-05-21T06:25:39.000Z</published>
-    <updated>2018-05-21T14:37:56.257Z</updated>
+    <updated>2018-08-27T16:11:14.669Z</updated>
     
     <summary type="html">
     
@@ -53,8 +57,10 @@
     
     </summary>
     
+      <category term="杂项" scheme="https://lazydel.github.io/categories/%E6%9D%82%E9%A1%B9/"/>
     
-      <category term="杂项" scheme="https://lazydel.github.io/tags/%E6%9D%82%E9%A1%B9/"/>
+    
+      <category term="折腾" scheme="https://lazydel.github.io/tags/%E6%8A%98%E8%85%BE/"/>
     
   </entry>
   
