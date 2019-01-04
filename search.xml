@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>激活office2019</title>
+      <link href="/2019/01/04/%E6%BF%80%E6%B4%BBoffice2019/"/>
+      <url>/2019/01/04/%E6%BF%80%E6%B4%BBoffice2019/</url>
+      <content type="html"><![CDATA[<a id="more"></a><p><a href="http://www.heanny.cn/post-371.html" target="_blank" rel="noopener">代码来源</a></p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">(cd /d <span class="string">"%~dp0"</span>)&amp;&amp;(NET FILE||(powershell <span class="built_in">start-process</span> -FilePath <span class="string">'%0'</span> -verb runas)&amp;&amp;(<span class="keyword">exit</span> /B)) &gt;NUL <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br><span class="line">title Office <span class="number">2019</span> Activator r/Piracy</span><br><span class="line">echo Converting... &amp; mode <span class="number">40</span>,<span class="number">25</span></span><br><span class="line">(<span class="keyword">if</span> exist <span class="string">"%ProgramFiles%\Microsoft Office\Office16\ospp.vbs"</span> cd /d <span class="string">"%ProgramFiles%\Microsoft Office\Office16"</span>)&amp;(<span class="keyword">if</span> exist <span class="string">"%ProgramFiles(x86)%\Microsoft Office\Office16\ospp.vbs"</span> cd /d <span class="string">"%ProgramFiles(x86)%\Microsoft Office\Office16"</span>)&amp;(<span class="keyword">for</span> /f %%x <span class="keyword">in</span> (<span class="string">'dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms'</span>) <span class="keyword">do</span> cscript ospp.vbs /inslic:<span class="string">"..\root\Licenses16\%%x"</span> &gt;nul)&amp;(<span class="keyword">for</span> /f %%x <span class="keyword">in</span> (<span class="string">'dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms'</span>) <span class="keyword">do</span> cscript ospp.vbs /inslic:<span class="string">"..\root\Licenses16\%%x"</span> &gt;nul)</span><br><span class="line">cscript //nologo ospp.vbs /unpkey:<span class="number">6</span>MWKP &gt;nul&amp;cscript //nologo ospp.vbs /inpkey:NMMKJ-<span class="number">6</span>RK4F-KMJVX-<span class="number">8</span>D9MJ-<span class="number">6</span>MWKP &gt;nul&amp;set i=<span class="number">1</span></span><br><span class="line">:server</span><br><span class="line"><span class="keyword">if</span> %i%==<span class="number">1</span> set KMS_Sev=kms7.MSGuides.com</span><br><span class="line"><span class="keyword">if</span> %i%==<span class="number">2</span> set KMS_Sev=kms8.MSGuides.com</span><br><span class="line"><span class="keyword">if</span> %i%==<span class="number">3</span> set KMS_Sev=kms9.MSGuides.com</span><br><span class="line">cscript //nologo ospp.vbs /sethst:%KMS_Sev% &gt;nul</span><br><span class="line">echo %KMS_Sev% &amp; echo Activating...</span><br><span class="line">cscript //nologo ospp.vbs /act | find /i <span class="string">"successful"</span> &amp;&amp; (echo Complete) || (echo Trying another KMS Server &amp; set /a i+=<span class="number">1</span> &amp; goto server)</span><br><span class="line">pause &gt;nul</span><br><span class="line"><span class="keyword">exit</span></span><br></pre></td></tr></table></figure><p>新建一个 txt 文件将代码复制粘贴并修改后缀为 bat 即可双击使用，shell中显示successful后即激活成功。</p>]]></content>
+      
+      <categories>
+          
+          <category> 杂项 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> office </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>网鼎杯GUESS</title>
       <link href="/2018/08/21/%E7%BD%91%E9%BC%8E%E6%9D%AFGUESS/"/>
       <url>/2018/08/21/%E7%BD%91%E9%BC%8E%E6%9D%AFGUESS/</url>
