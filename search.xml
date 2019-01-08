@@ -6,7 +6,7 @@
       <title>windows下的shell美化</title>
       <link href="/2019/01/08/windows%E4%B8%8B%E7%9A%84shell%E7%BE%8E%E5%8C%96/"/>
       <url>/2019/01/08/windows%E4%B8%8B%E7%9A%84shell%E7%BE%8E%E5%8C%96/</url>
-      <content type="html"><![CDATA[<h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="/2019/01/08/windows下的shell美化/美化shell.png" alt="美化shell"></p>]]></content>
+      <content type="html"><![CDATA[<h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="/2019/01/08/windows下的shell美化/美化shell.png" alt="美化shell"></p><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="1-下载-Hyper"><a href="#1-下载-Hyper" class="headerlink" title="1. 下载 Hyper"></a>1. 下载 Hyper</h2><p>从<a href="https://hyper.is/" target="_blank" rel="noopener">Hyper 官网</a>下载并安装</p><h3 id="需要的插件："><a href="#需要的插件：" class="headerlink" title="需要的插件："></a>需要的插件：</h3><ol><li><a href="https://www.npmjs.com/package/hyper-opacity" target="_blank" rel="noopener">hyper-opacity</a>可配置背景透明。虽然由于一些原因 <code>Hyper</code>不支持背景透明，但是通过这个插件可以调用<code>windows</code>的<code>API</code>让整个窗口变透明</li><li><a href="https://github.com/klaussinani/hyper-pokemon" target="_blank" rel="noopener">hyper-pokemon</a>设置背景图片。需要将插件进行魔改才行，稍后再讲。</li></ol><h2 id="2-配置插件"><a href="#2-配置插件" class="headerlink" title="2. 配置插件"></a>2. 配置插件</h2><h3 id="1-hyper-opacity"><a href="#1-hyper-opacity" class="headerlink" title="1. hyper-opacity:"></a>1. hyper-opacity:</h3><p>首先通过<code>hyper</code>左上角-&gt;<code>Edit</code>-&gt;<code>Perferences</code>打开<code>Hyper</code>的配置文件</p><p>安装完在<code>config</code>末尾添加配置信息</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  config: &#123;</span><br><span class="line">    <span class="comment">// rest of the config</span></span><br><span class="line">    opacity: &#123;</span><br><span class="line">      focus: <span class="number">0.9</span>,</span><br><span class="line">      blur: <span class="number">0.5</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// rest of the file</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>focus</code>设置聚焦状态下的透明度，<code>blur</code>设置聚焦在其他事物时的透明度</p><h3 id="hyper-pokemon"><a href="#hyper-pokemon" class="headerlink" title="hyper-pokemon"></a>hyper-pokemon</h3><p>同样先添加配置信息</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">config: &#123;</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">    colors: &#123;</span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">    &#125;,</span><br><span class="line">    pokemon: <span class="string">'cc'</span>, <span class="comment">// Choose your favorite pokemon theme</span></span><br><span class="line">    unibody: <span class="string">'true'</span>, <span class="comment">// Choose the color of the window header</span></span><br><span class="line">    poketab: <span class="string">'false'</span>, <span class="comment">// Deactivate your theme's poketab</span></span><br><span class="line">    <span class="comment">//...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>注意到这里的<code>pokemon</code>项使用的并不是一个默认的主题，而是我们魔改后的主题名称，这个名称可以随你喜欢。</p><p>接下来就是添加我们自己的主题的过程了。</p><p><strong>待续…</strong></p>]]></content>
       
       <categories>
           
@@ -17,11 +17,11 @@
       
         <tags>
             
-            <tag> 折腾 </tag>
-            
             <tag> windows </tag>
             
             <tag> 美化 </tag>
+            
+            <tag> 折腾 </tag>
             
         </tags>
       
