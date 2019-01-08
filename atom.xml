@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lazydel.space/"/>
-  <updated>2019-01-04T11:52:45.096Z</updated>
+  <updated>2019-01-08T14:57:15.033Z</updated>
   <id>https://lazydel.space/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows下的shell美化</title>
+    <link href="https://lazydel.space/2019/01/08/windows%E4%B8%8B%E7%9A%84shell%E7%BE%8E%E5%8C%96/"/>
+    <id>https://lazydel.space/2019/01/08/windows下的shell美化/</id>
+    <published>2019-01-08T14:57:14.000Z</published>
+    <updated>2019-01-08T14:57:15.033Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="杂项" scheme="https://lazydel.space/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+      <category term="windows" scheme="https://lazydel.space/tags/windows/"/>
+    
+      <category term="美化" scheme="https://lazydel.space/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="折腾" scheme="https://lazydel.space/tags/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>激活office2019</title>
@@ -79,7 +109,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;由于没有能够随身携带的轻便的笔记本，所以就搞了搞手机ssh连接ubuntu虚拟机。步骤如下：&lt;br&gt;
+      &lt;p&gt;由于没有能够随身携带的轻便的笔记本，所以就搞了搞手机ssh连接ubuntu虚拟机。步骤如下：&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
